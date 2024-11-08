@@ -1,0 +1,9 @@
+.section-characters {
+    display: flex;
+    margin: 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

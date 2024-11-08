@@ -1,0 +1,5 @@
+<section class="section-characters">
+<app-card *ngFor="let item of characters" [character]="item" class="w-[20%] h-[500px] bg-slate-300 flex items-center justify-center flex-col" 
+    (sendMessageEvent)="receiveResponse($event)"
+></app-card>
+</section>
